@@ -1,0 +1,315 @@
+@charset "UTF-8";
+body#top {
+  font-family: Arial, "メイリオ", Meiryo, "ヒラギノ角ゴPro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", sans-serif;
+  background-color: #f8f8f6;
+  border-top: 3px solid #f28b1b;
+}
+a:link {color: #000;}
+a:visited {color: #635639;}
+a:hover {color: #a38e5b;}
+a:active {color: #000;}
+a {text-decoration: none;}
+div#wrapper {
+  width: 950px;
+  margin: 23px auto;
+}
+div#header {
+  width: 230px;
+  margin-right: 10px;
+  float: left;
+}
+  div#gnav-sub {
+    width: 230px;
+  }
+  div.gnav-bdr {
+    border: 1px solid #f28b1b;
+
+  }
+  div.logo_img {
+    border: 1px solid #f28b1d;
+    margin-bottom: 14px;
+  }
+  div.logo_img a {
+    display: block;
+    width: 226px;
+    height: 226px;
+    margin: 1px;
+    background-image: url(../images/logo01.png);
+    background-color: #f28b1b;
+    background-position: 50px 40px;
+    background-repeat: no-repeat;
+  }
+  #gnav-sub {
+    width: 230px;
+    height: 307px;
+    display: block;
+  }
+  #gnav-sub ul {
+    display: block;
+    padding: 0px;
+    margin: 1px;
+  }
+  ul:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  #gnav-sub li {
+    display: block;
+    width: 75px;
+    height: 75px;
+    border-right: 1px dotted #f28b1d;
+    border-top: 1px dotted #f28b1d;
+    margin: 0px;
+    float: left;
+  }
+  #gnav-sub li:nth-child(3n) {border-right: none;}
+  #gnav-sub li:nth-child(-n+3) {border-top: none;}
+  #gnav-sub li a {
+    display: block;
+    width: 75px;
+    height: 75px;
+    background-image: url(../images/spr_gnav_pc.png);
+    background-color: #f28b1d;
+  }
+  #gnav-sub li a:hover {
+    background-color: #fff;
+  }
+  #gnav-sub li.company a {
+      background-position: 0 -0px;
+    }
+  #gnav-sub li.company a:hover, #gnav-sub li.company a.current {
+    background-position: -75px -0px;
+  }
+  #gnav-sub li.service a {
+    background-position: 0 -75px;
+  }
+  #gnav-sub li.service a:hover, #gnav-sub li.service a.current {
+    background-position: -75px -75px;
+  }
+  #gnav-sub li.news a {
+    background-position: 0 -150px;
+  }
+  #gnav-sub li.news a:hover, #gnav-sub li.news a.current {
+    background-position: -75px -150px;
+  }
+  #gnav-sub li.recruit a {
+    background-position: 0 -225px;
+  }
+  #gnav-sub li.recruit a:hover, #gnav-sub li.recruit a.current {
+    background-position: -75px -225px;
+  }
+  #gnav-sub li.fb a {
+    background-position: 0 -300px;
+  }
+  #gnav-sub li.fb a:hover, #gnav-sub li.fb a.current {
+    background-position: -75px -300px;
+  }
+  #gnav-sub li.contact a {
+    background-position: 0 -375px;
+  }
+  #gnav-sub li.contact a:hover, #gnav-sub li.contact a.current {
+    background-position: -75px -375px;
+  }
+  #gnav-sub li.site-guppy a {
+    background-position: 0 -450px;
+  }
+  #gnav-sub li.site-guppy a:hover, #gnav-sub li.site-guppy a.current {
+    background-position: -75px -450px;
+  }
+  #gnav-sub li.site-job a {
+    background-position: 0 -525px;
+  }
+  #gnav-sub li.site-job a:hover, #gnav-sub li.site-job a.current {
+    background-position: -75px -525px;
+  }
+  #gnav-sub li.site-service a {
+    background-position: 0 -600px;
+  }
+  #gnav-sub li.site-service a:hover, #gnav-sub li.site-service a.current {
+    background-position: -75px -600px;
+  }
+  #gnav-sub li.site-agent a {
+    background-position: 0 -675px;
+  }
+  #gnav-sub li.site-agent a:hover, #gnav-sub li.site-agent a.current {
+    background-position: -75px -675px;
+  }
+  #gnav-sub li.site-drspot a {
+    background-position: 0 -750px;
+  }
+  #gnav-sub li.site-drspot a:hover, #gnav-sub li.site-drspot a.current {
+    background-position: -75px -750px;
+  }
+  #gnav-sub li.site-jinz a {
+    background-position: 0 -825px;
+  }
+  #gnav-sub li.site-jinz a:hover, #gnav-sub li.site-jinz a.current {
+    background-position: -75px -825px;
+  }
+  #gnav-sub li.service, #gnav-sub li.service a {
+    width: 74px;
+  }
+  #gnav-sub li.fb, #gnav-sub li.fb a {
+    width: 74px;
+  }
+  #gnav-sub li.site-job, #gnav-sub li.site-job a {
+    width: 74px;
+  }
+  #gnav-sub li.site-drspot, #gnav-sub li.site-drspot a {
+    width: 74px;
+  }
+  .block-social {
+    width: 94px;
+    margin: 30px auto;
+  }
+  .block-social ul li {
+    display: inline;
+    margin-right: 8px;
+  }
+  #main {
+    width: 710px;
+    float: left;
+  }
+  .top-img {
+    width: 710px;
+    margin-bottom: 10px;
+  }
+  div#cont-list-inner {
+    width: 710px;
+  }
+  .clearfix:after {
+    display: block;
+    content: " ";
+    clear: both;
+  }
+  #cont-list-inner section {
+    position: relative;
+    width: 228px;
+    height: 228px;
+    border: 1px solid #cabfa4;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+    background-color: #f8f8f6;
+  }
+  #cont-list-inner section:nth-child(3n) {
+    margin-right: 0;
+  }
+  div#cont-list-inner a {
+    display: block;
+  }
+  #cont-list-inner section h1 {
+    width: 125px;
+    height: 16px;
+    background-image: url(https://placehold.jp/125x16.png);
+    position: absolute;
+    left: 0;
+    top: 10px;
+  }
+  #cont-list-inner section .thumb {
+    width: 88px;
+    height: 70px;
+    background-image: url(https://placehold.jp/88x70.png);
+    position: absolute;
+    left: 70px;
+    top: 45px;
+  }
+  #cont-list-inner section h2 {
+    width: 188px;
+    height: 17px;
+    background-image: url(https://placehold.jp/188x17.png);
+    position: absolute;
+    left: 20px;
+    top: 135px;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+  }
+  #cont-list-inner section .desc {
+    width: 188px;
+    font-size: 69%;
+    line-height: 1.5;
+    position: absolute;
+    left: 20px;
+    top: 165px;
+  }
+#footer {
+  display: block;
+  clear: both;
+  width: 100%;
+  border-top: 2px solid #f28b1b;
+  background-color: #fff;
+}
+.footer_nav {
+  border-bottom: 1px dotted #f28b1b;
+}
+.footer_nav ul {
+  width: 950px;
+  margin: 13px auto;
+}
+.footer_nav ul li {
+  display: inline;
+  text-align: center;
+}
+.footer_nav ul li:before {
+  display: inline-block;
+  content: " ";
+  width: 9px;
+  height: 9px;
+  margin: 5px 5px 0 15px;
+  background: url(../images/arrow03.png) no-repeat 0 center;
+}
+.footer_nav ul li a {
+  font-size: 69%;
+}
+div#footer-contact {
+  width: 950px;
+  height: 60px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+div#footer-contact .logo {
+  margin-top: 20px;
+}
+.unit-pmark {
+  position: absolute;
+  top: 8px;
+  right: 2px;
+}
+.unit-ymark {
+  position: absolute;
+  top: 8px;
+  right: 55px;
+}
+#copyright {
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  width: 100%;
+  background-color: #f28b1b;
+  color: #fff;
+}
+#page-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 77%;
+}
+#page-top a {
+	background: #666;
+	text-decoration: none;
+	color: #fff;
+	width: 100px;
+	padding: 30px 0;
+	text-align: center;
+	display: block;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+#page-top a:hover {
+	text-decoration: none;
+	background: #999;
+}
